@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
     <style>
       /*
 Primary - #02ddee
@@ -14,8 +14,8 @@ Primary - #7ddae4
 Complementary - #e4877d
      */
       :root {
-	  --primary-color: #02ddee;
-	  --complementary-color: #ff7d5e ;
+	  --primary-color: #76FF03;
+	  --complementary-color: #ff29df ;
       }
       
       * {
@@ -23,24 +23,24 @@ Complementary - #e4877d
       }
 
       html {
-	  font-size: 16px;
+	  font-size: 20px;
       }
       
       body {
 	  margin: 0;
-	  font-family: 'Roboto', sans-serif;
-	  background-color: #f2f2f2;
+	  font-family: 'Open Sans', sans-serif;
+	  background-color: #E0E0E0;
       }
 
       .form-container {
 	  background-color: #fff;
-	  max-width: 450px;
+	  max-width: 530px;
 	  width: 95%;
 	  margin: auto;
 	  padding: 40px;
 
 	  /* 05.html: */
-	  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	  box-shadow: 10px 10px 10px 1px rgba(0,0,0,0.2);
 	  
 	  /*11 01.html:*/
 	  margin-top: 50px;
@@ -76,7 +76,7 @@ Complementary - #e4877d
       .form-heading {
 	  margin-top: 0;
 	  font-size: 1.5rem;
-	  font-weigth: 500;
+	  font-weight: 500;
 
 	  /*02.html:*/
 	  letter-spacing: 0.75px;
@@ -90,8 +90,8 @@ Complementary - #e4877d
 	  text-shadow: 0 0 2px rgba(0,0,0,0.2);
 	  border-radius: 3px;
 	  padding: 0.6rem 0;
-	  width: 150px;
-	  margin-left: calc(100% - 150px);
+	  width: 300px;
+	  margin-left: calc(50% - 150px);
 	  box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
 	  /*02.html starts here*/
 
@@ -134,7 +134,7 @@ Complementary - #e4877d
       <h3 class="form-heading">Форма</h3>
       <!-- Внимание! actions -->
       <!-- Ссылка actions заканчивается на api token. Он для каждого свой -->
-      <form id="form" action="https://getsimpleform.com/messages?form_api_token=8e8fd8200eaea68bae2bdf16e77daf58" method="post" >
+      <form id="form" action="https://getsimpleform.com/messages?form_api_token=71fa6c948f3090800728d4c542c34aee" method="post" >
 	<input type="hidden" name="redirect_to" value="https://www.wikipedia.org/">
 	<div class="field">
 	  <label for="name">Имя</label>
